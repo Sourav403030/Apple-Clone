@@ -33,6 +33,8 @@ nav{
     height: 50px;
     width: 100%;
     background-color: #1D1D1F;
+    opacity: 90%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +53,7 @@ nav i{
 }
 
 .first{
-    height: 680px;
+    height: 750px;
     width: 100%;
     background-image: url(./assets/iphone17pronew.jpg);
     background-color: black;
@@ -63,7 +65,7 @@ nav i{
     justify-content: top;
     color: white;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .first-heading{
@@ -123,3 +125,398 @@ nav i{
     transition: 0.3s all ease-in-out;
     cursor: pointer;
 }
+
+.second{
+    height: 700px;
+    background-color: #F5F5F7;
+    margin-top: 10px;
+    background-image: url(./assets/iphoneair.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.second-heading{
+    text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second-heading h1{
+    font-size: 55px;
+    font-family: apple-normal;
+}
+
+.second-heading h3{
+    font-size: 27px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.second-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.third{
+    height: 700px;
+    background-color: #F5F5F7;
+    margin-top: 10px;
+    background-image: url(./assets/iphone17s.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.third-heading{
+    text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.third-heading h1{
+    font-size: 55px;
+    font-family: apple-normal;
+}
+
+.third-heading h3{
+    font-size: 27px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.third-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fourth{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.fourth-left{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 100%;
+    width: 50%;
+    background-color: #F5F5F7;
+    background-image: url(./assets/applewatch2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fourth-left-heading{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fourth-left-heading img{
+    height: 35px;
+}
+
+.fourth-left-heading h3{
+    font-size: 20px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.fourth-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fourth-links button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.learn-more-small{
+    background-color: #0171E3;
+    color: white;
+    font-family: apple-light;
+    font-weight: 100;
+    font-size: 15px;
+    border: none;
+}
+
+.buy-small{
+    background: transparent;
+    border: 1px solid #0171E3;
+    color: #0171E3;
+}
+
+.buy-small:hover{
+    background-color: #0171E3;
+    color: white;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.fourth-right{
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 100%;
+    width: 50%;
+    background-color: #F5F5F7;
+    background-image: url(./assets/airpods.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fourth-right-heading{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fourth-right-heading h1{
+    font-size: 35px;
+    font-family: apple-normal;
+}
+
+.fourth-right-heading h3{
+    text-align: center;
+}
+
+
+.fourth-right-heading h3{
+    font-size: 20px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.fifth{
+    margin-top: 20px;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.fifth-left{
+    margin-left: 10px;
+    height: 100%;
+    width: 49%;
+    background-color: #F5F5F7;
+    background-image: url(./assets/macbook2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fifth-left-heading{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fifth-left-heading h1{
+    font-size: 35px;
+    font-family: apple-normal;
+}
+
+.fifth-left-heading h3{
+    text-align: center;
+}
+
+
+.fifth-left-heading h3{
+    font-size: 20px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.fifth-links button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.fifth-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fifth-right{
+    height: 100%;
+    width: 49%;
+    background-color: #F5F5F7;
+    background-image: url(./assets/ipadair2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fifth-right-heading img{
+   height: 40px;
+}
+
+.fifth-right-heading{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.fifth-right-heading h3{
+    text-align: center;
+}
+
+
+.fifth-right-heading h3{
+    font-size: 20px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.sixth{
+    margin-top: 10px;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.sixth-left{
+    margin-left: 10px;
+    height: 100%;
+    width: 49%;
+    background-color: #F5F5F7;
+    background-image: url(./assets/2iphones.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sixth-left-heading h3{
+    text-align: center;
+}
+
+.sixth-left-heading{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.sixth-left-heading h3{
+    font-size: 20px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.sixth-links button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.sixth-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sixth-left-heading img{
+   height: 40px;
+}
+
+
+
+
+.sixth-right{
+    height: 100%;
+    width: 49%;
+    background-color: #F5F5F7;
+    background-image: url(./assets/card2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sixth-right-heading h3{
+    text-align: center;
+}
+
+.sixth-right-heading{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.sixth-right-heading h3{
+    font-size: 20px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.sixth-links button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.sixth-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sixth-right-heading img{
+   height: 40px;
+}
+

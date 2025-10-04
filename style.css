@@ -1,0 +1,125 @@
+@font-face {
+    font-family: apple-light;
+    src: url(./fonts/sf-pro-icons_light.woff2);
+}
+
+@font-face {
+    font-family: apple-bold;
+    src: url(./fonts/sf-pro-display_bold.woff2);
+}
+
+@font-face {
+    font-family: apple-normal;
+    src: url(./fonts/sf-pro-display_regular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #1D1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(192, 191, 191);
+    font-family: apple-light;
+}
+
+nav h4{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+nav i{
+    font-size: 18px;
+}
+
+.first{
+    height: 680px;
+    width: 100%;
+    background-image: url(./assets/iphone17pronew.jpg);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    color: white;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.first-heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-heading h1{
+    font-size: 55px;
+    font-family: apple-normal;
+}
+
+.first-heading h3{
+    font-size: 27px;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.first-links{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.learn-more{
+    padding: 12px 23px ;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #0171E3;
+    color: white;
+    font-family: apple-light;
+    font-weight: 100;
+}
+
+.buy{
+    padding: 12px 23px ;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    font-family: apple-light;
+    font-weight: 100;
+    background: transparent ;
+    border: 1px solid #0171E3 ;
+    color: #0171E3 ;
+}
+
+.buy:hover{
+    background-color: #0171E3;
+    color: white;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
